@@ -21,14 +21,34 @@ router.post('/users',function(req,res){
 });
 
 //update user 
-router.put('/users/:id', function(req,res){
-	res.send({type:'PUT',});
+router.put('/users/:user_id', function(req,res){
+ User.findById(req.params.user_id, function (err, user) {
+        if (err) {
+            res.send(err);
+        }
+        user.username = req.body.username;
+        user.email = req.body.email;
+        user.firstname = req.body.firstname;
+        user.lastname = req.body.lastname;
+        user.save(function (err) {
+            if (err)
+                res.send(err);
+
+            res.json({ message: 'User updated!' });
+        });
+
+    });
 });
 
 //delete user
 
-router.delete('/users/:id', function(req,res){
-	res.send({type:'DELETE'});
+router.delete('/users/:user_id', function(req,res){
+	    User.remove(req.param.user_id , function (err, user) {
+        if (err) {
+            res.send(err);
+        }
+        res.json({ message: 'Successfully deleted' });
+    })
 });
 
 //enable a file to be used in other module
