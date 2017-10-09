@@ -5,7 +5,12 @@ const User = require('../models/users');
 //get list of users
 
 router.get('/users', function(req,res){
-	res.send({type:'GET'});
+	User.find(function (err, users) {
+        if (err) {
+            res.send(err);
+        }
+        res.send(users);
+    });
 });
 
 //add new user
