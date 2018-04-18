@@ -43,7 +43,7 @@ router.put('/posts/:post_id', function(req,res){
 //delete user
 
 router.delete('/posts/:post_id', function(req,res){
-	    Post.remove(req.param.user_id , function (err, post) {
+	    Post.remove(req.param.post_id , function (err, post) {
         if (err) {
             res.send(err);
         }
