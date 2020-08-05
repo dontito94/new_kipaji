@@ -1,0 +1,38 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "simple todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234 --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dontito94/react-todo.git"
+  },
+  "author": "francis tito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dontito94/react-todo/issues"
+  },
+  "homepage": "https://github.com/dontito94/react-todo#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "create-react-class": "^15.6.3",
+    "css-loader": "^0.28.11",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "^4.2.0",
+    "style-loader": "^0.21.0"
+  },
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.22",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "2.1.0-beta.10"
+  }
+}
