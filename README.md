@@ -1,33 +1,6 @@
-<<<<<<< HEAD
 # kipaji-Api
 REST API for mobile applications using Node.js  with Mongoose.js for working with MongoDB.
 
-## Running project
-You need to have installed Node.js and MongoDB 
-
-### Install dependencies 
-To install dependencies enter project folder and run following command:
-```
-npm install
-```
-### Run server
-
-To run server execute:
-```
- `node index.js` and You will need to run it as you make changes 
-
- `nodemon` will require you to run once and will automatic save changes so no need to run after make changes.
- 
-```
- ### Modules used
-
-Some of non standard modules used:
-* [express](https://www.npmjs.com/package/mongoose)
-* [mongoose](https://www.npmjs.com/package/mongoose)
-
-### Author 
-This Application was created by francis tito ([@francistito2](http://twitter.com/francistito2)).
-=======
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
@@ -103,4 +76,3 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
   Nest is [MIT licensed](LICENSE).
->>>>>>> 1c70628e03db7bfa2df98975330a65a94e4c667f
