@@ -2,10 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e98b3e07-a11c-4248-b765-05fd6c640b48" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/config/test.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/client/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/phone_number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes/details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes/phone_number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +80,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practicalSkillDev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,6 +126,10 @@
       <updated>1558591298460</updated>
       <workItem from="1558591301564" duration="3936000" />
       <workItem from="1596627992541" duration="2136000" />
+      <workItem from="1596660756210" duration="2035000" />
+      <workItem from="1596781966439" duration="1247000" />
+      <workItem from="1597046564561" duration="542000" />
+      <workItem from="1597169948995" duration="807000" />
     </task>
     <servers />
   </component>
@@ -83,7 +141,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
