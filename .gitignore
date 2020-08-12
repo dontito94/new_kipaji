@@ -2,11 +2,11 @@
 docker-compose.yml
 .env
 dist
-api
 ormconfig.json
 config.json
 .vscode
 documentation
+.idea
 =======
 
 # Created by https://www.gitignore.io/api/node,react,linux,visualstudiocode
@@ -168,6 +168,6 @@ test/
 # Recommended template: Node.gitignore
 
 /node_modules/
-dist/
 npm-debug.log
 yarn-error.log
+/.idea

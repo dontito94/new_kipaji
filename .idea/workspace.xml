@@ -1,107 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e98b3e07-a11c-4248-b765-05fd6c640b48" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/.postcssrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/build/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/build/check-versions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/build/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/build/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/build/vue-loader.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/build/webpack.base.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/build/webpack.dev.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/build/webpack.prod.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/config/dev.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/config/prod.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/config/test.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/client/static/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/phone_number.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes/comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes/details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes/phone_number.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e98b3e07-a11c-4248-b765-05fd6c640b48" name="Default" comment="🆕 Added modules to store folder (Vuex State Management)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="kipaji-Api" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fg7fyahJa8ioB8lefvbSe3PBt5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.gulp">
@@ -130,24 +100,67 @@
       <workItem from="1596781966439" duration="1247000" />
       <workItem from="1597046564561" duration="542000" />
       <workItem from="1597169948995" duration="807000" />
+      <workItem from="1597217383188" duration="17315000" />
     </task>
+    <task id="LOCAL-00001" summary="💪Adding Vuex for State Management">
+      <created>1597218365632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597218365632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added .idea folder (contains personal editor settings) to .gitignore">
+      <created>1597218548215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597218548216</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added entry point for Vuex">
+      <created>1597221364391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597221364391</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactoring entry point for Vuex">
+      <created>1597221660887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597221660887</updated>
+    </task>
+    <task id="LOCAL-00005" summary="🆕 Added modules to store folder (Vuex State Management)">
+      <created>1597222850912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597222850912</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactored Vuex modules">
+      <created>1597242978192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597242978192</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -156,5 +169,22 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adding Vuex for State Management" />
+    <MESSAGE value="Added .idea folder (contains personal editor settings) to .gitignore" />
+    <MESSAGE value="Added entry point for Vuex" />
+    <MESSAGE value="Refactoring entry point for Vuex" />
+    <MESSAGE value=" Added modules to store folder (Vuex State Management)" />
+    <MESSAGE value="Refactored Vuex modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Vuex modules" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2475" y="272" width="800" height="537" key="Vcs.Push.Dialog.v2" timestamp="1597222856600">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="272" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597222856600" />
   </component>
 </project>
