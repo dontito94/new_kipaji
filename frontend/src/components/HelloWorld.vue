@@ -15,9 +15,9 @@ export default {
     }
   },
   computed: {
-    ...mapState([
-      'message'
-    ])
+    ...mapState({
+      message: state => state.message
+    })
   }
 }
 </script>
