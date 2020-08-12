@@ -1,4 +1,4 @@
-#OVERVIEW
+# OVERVIEW
 > KIPAJI designed specially for you to connect directly with your desired talents, whether it’s performing artists or non-performing artists, we have it all on our platform!
 
 > Are you an artist wishing badly for your talents to be seen or heard? The welcoming door is always open. Do what makes your soul shine! 
