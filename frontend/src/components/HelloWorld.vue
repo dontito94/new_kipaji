@@ -5,19 +5,15 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import store from '../store/index'
 
 export default {
   name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  },
+
   computed: {
-    ...mapState({
-      message: state => state.message
-    })
+    message () {
+      return store.state.message
+    }
   }
 }
 </script>

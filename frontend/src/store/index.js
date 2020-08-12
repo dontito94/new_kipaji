@@ -1,17 +1,17 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { user } from './modules/user'
+import user from './modules/user'
 
 Vue.use(Vuex)
 
-export const store = new Vuex.Store({
-  state: {
-    message: 'Welcome to Client Main Page'
-  },
+export default new Vuex.Store({
   modules: {
     user: {
       namespaced: true,
       user
     }
+  },
+  state: {
+    message: 'Welcome to Client Main Page'
   }
 })
