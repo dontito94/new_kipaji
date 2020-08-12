@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import user from '../api/user'
 import store from '../store/index'
 
 export default {
@@ -12,8 +13,13 @@ export default {
 
   computed: {
     message () {
-      return store.state.message
+      return store.getters.getMessage
     }
+  },
+  created () {
+    user.getMessage(message => {
+      store.commit('setMessage', message)
+    })
   }
 }
 </script>

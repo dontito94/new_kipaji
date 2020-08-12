@@ -12,6 +12,16 @@ export default new Vuex.Store({
     }
   },
   state: {
-    message: 'Welcome to Client Main Page'
+    message: ''
+  },
+  getters: { // = computed properties
+    getMessage (state) {
+      return state.message
+    }
+  },
+  mutations: {
+    setMessage (state, message) {
+      state.message = message
+    }
   }
 })
