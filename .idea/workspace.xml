@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e98b3e07-a11c-4248-b765-05fd6c640b48" name="Default" comment="Added .idea folder (contains personal editor settings) to .gitignore">
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="e98b3e07-a11c-4248-b765-05fd6c640b48" name="Default" comment="🆕 Added modules to store folder (Vuex State Management)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +100,7 @@
       <workItem from="1596781966439" duration="1247000" />
       <workItem from="1597046564561" duration="542000" />
       <workItem from="1597169948995" duration="807000" />
-      <workItem from="1597217383188" duration="3959000" />
+      <workItem from="1597217383188" duration="17315000" />
     </task>
     <task id="LOCAL-00001" summary="💪Adding Vuex for State Management">
       <created>1597218365632</created>
@@ -120,7 +116,35 @@
       <option name="project" value="LOCAL" />
       <updated>1597218548216</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added entry point for Vuex">
+      <created>1597221364391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597221364391</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactoring entry point for Vuex">
+      <created>1597221660887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597221660887</updated>
+    </task>
+    <task id="LOCAL-00005" summary="🆕 Added modules to store folder (Vuex State Management)">
+      <created>1597222850912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597222850912</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactored Vuex modules">
+      <created>1597242978192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597242978192</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,12 +175,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Adding Vuex for State Management" />
     <MESSAGE value="Added .idea folder (contains personal editor settings) to .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .idea folder (contains personal editor settings) to .gitignore" />
+    <MESSAGE value="Added entry point for Vuex" />
+    <MESSAGE value="Refactoring entry point for Vuex" />
+    <MESSAGE value=" Added modules to store folder (Vuex State Management)" />
+    <MESSAGE value="Refactored Vuex modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Vuex modules" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2475" y="272" width="800" height="537" key="Vcs.Push.Dialog.v2" timestamp="1597218555862">
+    <state x="2475" y="272" width="800" height="537" key="Vcs.Push.Dialog.v2" timestamp="1597222856600">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="272" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597218555862" />
+    <state x="2475" y="272" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597222856600" />
   </component>
 </project>
