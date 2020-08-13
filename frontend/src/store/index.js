@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import user from './modules/user'
+import userApi from '../api/user'
 
 Vue.use(Vuex)
 
@@ -17,6 +18,13 @@ export default new Vuex.Store({
   getters: { // = computed properties
     getMessage (state) {
       return state.message
+    }
+  },
+  actions: { // = methods, lets make all api calls with actions
+    fetchMessage (context) {
+      userApi.getMessage(message => {
+        context.commit('setMessage', message)
+      })
     }
   },
   mutations: {

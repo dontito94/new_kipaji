@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import user from '../api/user'
 import store from '../store/index'
 
 export default {
@@ -17,9 +16,7 @@ export default {
     }
   },
   created () {
-    user.getMessage(message => {
-      store.commit('setMessage', message)
-    })
+      store.dispatch('fetchMessage')
   }
 }
 </script>
