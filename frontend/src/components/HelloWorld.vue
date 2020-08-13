@@ -9,8 +9,6 @@
 </template>
 
 <script>
-import store from '../store/index'
-
 export default {
   name: 'HelloWorld',
   data () {
@@ -21,12 +19,12 @@ export default {
 
   computed: {
     message () {
-      return store.getters.getMessage
+      return this.$store.getters.getMessage
     }
   },
   created () {
     this.loading = true
-    store.dispatch('fetchMessage').then(() => {
+    this.$store.dispatch('fetchMessage').then(() => {
       this.loading = false
     })
   }
