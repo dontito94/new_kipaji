@@ -21,9 +21,13 @@ export default new Vuex.Store({
     }
   },
   actions: { // = methods, lets make all api calls with actions
-    fetchMessage (context) {
-      userApi.getMessage(message => {
-        context.commit('setMessage', message)
+    fetchMessage ({commit}) {
+      return new Promise((resolve, reject) => {
+        // make api call
+        userApi.getMessage(message => {
+          commit('setMessage', message)
+        })
+        resolve()
       })
     }
   },

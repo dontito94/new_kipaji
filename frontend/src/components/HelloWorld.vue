@@ -1,6 +1,10 @@
 <template>
   <div class="hello">
-    <h1>{{ message }}</h1>
+    <img
+      v-if="loading"
+      src="../assets/preloader.gif"
+      alt="preloader">
+    <h1 v-else>{{ message }}</h1>
   </div>
 </template>
 
@@ -9,6 +13,11 @@ import store from '../store/index'
 
 export default {
   name: 'HelloWorld',
+  data () {
+    return {
+      loading: false
+    }
+  },
 
   computed: {
     message () {
@@ -16,7 +25,10 @@ export default {
     }
   },
   created () {
-    store.dispatch('fetchMessage')
+    this.loading = true
+    store.dispatch('fetchMessage').then(() => {
+      this.loading = false
+    })
   }
 }
 </script>
