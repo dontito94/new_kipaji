@@ -1,6 +1,6 @@
-# client
+# KIPAJI APP
 
-> A Vue.js project
+> Base frontend
 
 ## Build Setup
 
@@ -25,6 +25,7 @@ npm run e2e
 
 # run all tests
 npm test
-```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# [FIX - linux command ] System limit for number of file watchers reached
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
