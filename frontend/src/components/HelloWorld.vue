@@ -16,7 +16,7 @@ export default {
     }
   },
   created () {
-      store.dispatch('fetchMessage')
+    store.dispatch('fetchMessage')
   }
 }
 </script>
