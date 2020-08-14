@@ -1,24 +1,31 @@
 <template>
   <div class="hello">
-    <h1>{{ message }}</h1>
+    <img
+      v-if="loading"
+      src="../assets/preloader.gif"
+      alt="preloader">
+    <h1 v-else>{{ message }}</h1>
   </div>
 </template>
 
 <script>
-import user from '../api/user'
-import store from '../store/index'
-
 export default {
   name: 'HelloWorld',
+  data () {
+    return {
+      loading: false
+    }
+  },
 
   computed: {
     message () {
-      return store.getters.getMessage
+      return this.$store.getters.getMessage
     }
   },
   created () {
-    user.getMessage(message => {
-      store.commit('setMessage', message)
+    this.loading = true
+    this.$store.dispatch('fetchMessage').then(() => {
+      this.loading = false
     })
   }
 }

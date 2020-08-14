@@ -6,7 +6,6 @@ ormconfig.json
 config.json
 .vscode
 documentation
-.idea
 =======
 
 # Created by https://www.gitignore.io/api/node,react,linux,visualstudiocode
@@ -170,4 +169,4 @@ test/
 /node_modules/
 npm-debug.log
 yarn-error.log
-/.idea
+.idea
