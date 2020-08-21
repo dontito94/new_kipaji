@@ -1,5 +1,7 @@
 <template>
-  <main-nav></main-nav>
+  <div>
+    <main-nav></main-nav>
+  </div>
 </template>
 
 
