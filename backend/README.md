@@ -28,8 +28,25 @@ REST API for mobile applications using Node.js  with Mongoose.js for working wit
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+```bash
+* A nestjs starter project with implemented endpoints. 
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+* The Project contains tasks added by user and all crud operations on tasks and users
+
+* The Project contains tasks added by user and all crud operations on tasks and users.
+
+* Session management and JWT has also been implemented in the Project.
+
+* A user can create, update and delete only tasks that belong to them
+
+* Tests will be included for every module
+```
+> Built with Nestjs, Typeorm and Postgresql (Optional GraphQL)
+## Getting Started
+```bash
+clone the repo: git clone git@github.com:BaharaJr/nestjs-starter.git
+Change Directory into the cloned repo and proceed with Installation
+```
 
 ## Installation
 
@@ -62,17 +79,5 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+## Branch Descriptions
+> Every branch is simplified to make the learning easier and it's self described
