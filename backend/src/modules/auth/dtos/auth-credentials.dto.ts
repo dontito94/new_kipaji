@@ -24,4 +24,7 @@ export class AuthDto {
   lastname: string;
   firstname: string;
   phonenumber: number;
+  city?: string;
+  country?: string;
+  profession?: string;
 }

@@ -11,7 +11,7 @@ import { User } from './user.entity';
 @EntityRepository(User)
 export class UserRepository extends Repository<User> {
   async register(authDto: AuthDto): Promise<any> {
-    const { password, username, firstname, lastname, phonenumber } = authDto;
+    const { password, username, firstname, lastname, phonenumber,city,country,profession } = authDto;
     const user = new User();
     user.salt = await bcrypt.genSalt();
     user.username = username;
@@ -20,10 +20,13 @@ export class UserRepository extends Repository<User> {
     user.firstname = firstname;
     user.lastname = lastname;
     user.phonenumber = phonenumber;
+    user.city = city
+    user.country = country
+    user.profession = profession
 
     try {
       await user.save();
-      return user;
+      return {user: [user]};
     } catch (error) {
       if (error.code === '23505') {
         throw new ConflictException('Username already exists');

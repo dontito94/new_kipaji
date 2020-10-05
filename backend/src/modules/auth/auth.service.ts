@@ -13,7 +13,7 @@ export class AuthService {
     private userRepository: UserRepository,
     private jwtService: JwtService,
   ) {}
-  async register(authDto: AuthDto): Promise<{accessToken: string}> {
+  async register(authDto: AuthDto): Promise<{ accessToken: string }> {
     return this.userRepository.register(authDto);
   }
   async login(authDto: AuthDto) {
@@ -23,6 +23,10 @@ export class AuthService {
     }
     const payload: JwtPayload = { username };
     const accessToken = this.jwtService.sign(payload);
-    return {accessToken}
+    return { accessToken };
+  }
+  async getusers() {
+    const users = await this.userRepository.find();
+    return {users: users};
   }
 }
