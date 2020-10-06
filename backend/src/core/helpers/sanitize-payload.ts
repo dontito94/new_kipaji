@@ -2,7 +2,7 @@ import { isArray, keys, map, omit } from 'lodash';
 
 export const sanitizeResponseObject: any = (responseObject: any) => {
   const newResponseObject = { id: responseObject.uid };
-  const attributeKeys = keys(omit(responseObject, ['id', 'uid'])) || [];
+  const attributeKeys = keys(omit(responseObject, ['id', 'uid','password', 'salt'])) || [];
 
   attributeKeys.forEach(attributeKey => {
     const attributeValue = responseObject[attributeKey];

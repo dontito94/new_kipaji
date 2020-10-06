@@ -8,8 +8,8 @@ import {
   OneToMany,
 } from 'typeorm';
 import * as bcrypt from 'bcrypt';
-import { Posts } from '../posts/posts.entity';
-import { generateUid } from '../../core/helpers/generate-uid';
+import { Posts } from '../../posts/entities/posts.entity';
+import { generateUid } from '../../../core/helpers/generate-uid';
 
 @Entity('user', { schema: 'public' })
 @Unique(['username'])
@@ -32,9 +32,6 @@ export class User extends BaseEntity {
   @Column()
   password: string;
 
-  @Column()
-  phonenumber: number;
-
   @Column({
     nullable: true,
   })
@@ -53,6 +50,15 @@ export class User extends BaseEntity {
   @Column()
   salt: string;
 
+  @Column({
+    nullable: false,
+  })
+  mobilenumber: number;
+
+  @Column({
+    nullable: true,
+  })
+  homenumber: number;
   @OneToMany(
     () => Posts,
     posts => posts.user,

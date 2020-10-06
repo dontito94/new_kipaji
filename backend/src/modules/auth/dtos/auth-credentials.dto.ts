@@ -27,4 +27,6 @@ export class AuthDto {
   city?: string;
   country?: string;
   profession?: string;
+  homenumber: number;
+  mobilenumber: number;
 }

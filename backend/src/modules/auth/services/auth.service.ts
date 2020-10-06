@@ -1,11 +1,11 @@
 import { InjectRepository } from '@nestjs/typeorm';
-import { UserRepository } from './user.repository';
+import { UserRepository } from '../shared/user.repository';
 import { EntityRepository } from 'typeorm';
-import { User } from './user.entity';
-import { AuthDto } from './dtos/auth-credentials.dto';
+import { User } from '../entities/user.entity';
+import { AuthDto } from '../dtos/auth-credentials.dto';
 import { UnauthorizedException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
-import { JwtPayload } from './jtwpayload';
+import { JwtPayload } from '../shared/jtwpayload';
 @EntityRepository(User)
 export class AuthService {
   constructor(
@@ -27,6 +27,21 @@ export class AuthService {
   }
   async getusers() {
     const users = await this.userRepository.find();
-    return {users: users};
+    return { users: users };
+  }
+  async getOneUser(uid: string): Promise<any> {
+    const user = await this.userRepository.findOne({ where: { uid: uid } });
+    return user;
+  }
+  async editUser(uid: string, edituserDTO: AuthDto): Promise<any> {
+    const { password } = edituserDTO;
+
+    const user = await this.userRepository.findOne({ uid });
+    Object.keys(edituserDTO).forEach(key => {
+      user[key] = edituserDTO[key];
+    });
+    user.password = await this.userRepository.hashPassword(password, user.salt);
+    const usersaved = await this.userRepository.save(user);
+    return usersaved;
   }
 }
