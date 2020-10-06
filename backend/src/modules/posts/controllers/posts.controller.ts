@@ -12,16 +12,16 @@ import {
   ValidationPipe,
   Patch,
 } from '@nestjs/common';
-import { AuthGuard } from '@nestjs/passport';
-import { GetUser } from 'src/modules/auth/get-user.decorator';
-import { User } from 'src/modules/auth/user.entity';
-import { PostsService } from './posts.service';
-import { TaskStatusValidation } from './pipes/posts-status.validation.pipe';
-import { TaskStatus } from './tasks.status-enum';
+import { PostsService } from '../services/posts.service';
+import { TaskStatusValidation } from '../pipes/posts-status.validation.pipe';
+import { TaskStatus } from '../shared/tasks.status-enum';
 import { Logger } from '@nestjs/common';
-import { CreatePostsDto } from './dto/create-post.dto';
-import { Posts } from './posts.entity';
-import { PostsFilterDto } from './dto/posts.filter.dto';
+import { CreatePostsDto } from '../dto/create-post.dto';
+import { Posts } from '../entities/posts.entity';
+import { PostsFilterDto } from '../dto/posts.filter.dto';
+import { AuthGuard } from '@nestjs/passport';
+import { User } from '../../auth/entities/user.entity';
+import { GetUser } from '../../auth/shared/get-user.decorator';
 
 @Controller('posts')
 export class PostsController {

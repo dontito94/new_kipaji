@@ -11,9 +11,8 @@ import { getDataBaseConfiguration } from './database/config/baseconfiguration';
     TypeOrmModule.forRoot(getDataBaseConfiguration()),
     AuthModule,
     ConfigModule.forRoot({
-      envFilePath: '.development.env',
+      envFilePath: '.env',
       isGlobal: true,
-      ignoreEnvFile: true,
     }),
   ],
   controllers: [],

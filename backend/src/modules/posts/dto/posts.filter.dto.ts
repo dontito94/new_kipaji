@@ -1,4 +1,4 @@
-import { TaskStatus } from '../tasks.status-enum';
+import { TaskStatus } from '../shared/tasks.status-enum';
 import { IsNotEmpty, IsIn, IsOptional } from 'class-validator';
 
 export class PostsFilterDto {

@@ -1,12 +1,12 @@
 import { NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { User } from 'src/modules/auth/user.entity';
+import { User } from 'src/modules/auth/entities/user.entity';
 import { EntityRepository } from 'typeorm';
-import { CreatePostsDto } from './dto/create-post.dto';
-import { PostsFilterDto } from './dto/posts.filter.dto';
-import { PostsRepository } from './post.repository';
-import { Posts } from './posts.entity';
-import { TaskStatus } from './tasks.status-enum';
+import { CreatePostsDto } from '../dto/create-post.dto';
+import { PostsFilterDto } from '../dto/posts.filter.dto';
+import { PostsRepository } from '../shared/post.repository';
+import { Posts } from '../entities/posts.entity';
+import { TaskStatus } from '../shared/tasks.status-enum';
 
 @EntityRepository(Posts)
 export class PostsService {

@@ -1,4 +1,4 @@
-import { User } from 'src/modules/auth/user.entity';
+import { User } from 'src/modules/auth/entities/user.entity';
 import {
   BaseEntity,
   BeforeInsert,
@@ -8,7 +8,7 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import * as uid from 'uid';
-import { TaskStatus } from './tasks.status-enum';
+import { TaskStatus } from '../shared/tasks.status-enum';
 
 @Entity('task', { schema: 'public' })
 export class Posts extends BaseEntity {

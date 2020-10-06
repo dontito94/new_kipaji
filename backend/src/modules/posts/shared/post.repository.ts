@@ -1,7 +1,7 @@
 import { BadRequestException } from '@nestjs/common';
 import { EntityRepository, Repository } from 'typeorm';
-import { CreatePostsDto } from './dto/create-post.dto';
-import { Posts } from './posts.entity';
+import { CreatePostsDto } from '../dto/create-post.dto';
+import { Posts } from '../entities/posts.entity';
 
 @EntityRepository(Posts)
 export class PostsRepository extends Repository<Posts> {

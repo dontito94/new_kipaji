@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-let pathFolder = process.env.HRIS_HOME;
+let pathFolder = process.env.KIPAJI;
 if (!pathFolder) {
   if (!fs.existsSync('./files')) {
     fs.mkdirSync('./files');
