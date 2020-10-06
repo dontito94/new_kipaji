@@ -2,7 +2,6 @@
 docker-compose.yml
 .env
 dist
-api
 ormconfig.json
 config.json
 .vscode
@@ -167,7 +166,7 @@ test/
 ### Vuejs ###
 # Recommended template: Node.gitignore
 
-node_modules/
-dist/
+/node_modules/
 npm-debug.log
 yarn-error.log
+.idea

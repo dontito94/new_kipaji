@@ -1,8 +1,8 @@
 {
-  "name": "test-project",
+  "name": "kipaji-api",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "API interface that will expose all endpoints for development of Kipaji system software.",
+  "author": "Bennett Benedict",
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
