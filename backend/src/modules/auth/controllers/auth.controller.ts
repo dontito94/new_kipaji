@@ -1,7 +1,9 @@
 import {
   Body,
   Controller,
+  Delete,
   Get,
+  NotFoundException,
   Param,
   Post,
   Put,
@@ -41,5 +43,16 @@ export class AuthController {
   async updateUser(@Param() param, @Body() body) {
     const user = await this.authService.editUser(param.id, body);
     return sanitizeResponseObject(user);
+  }
+  @Delete('/users/:id/delete')
+  async deleteUser(@Param() param) {
+    const user = await this.authService.getOneUser(param.id);
+    if (user !== undefined) {
+      const deletedUser = await this.authService.deleteUser(param.id);
+      return sanitizeResponseObject(deletedUser);
+    }
+    if (user == undefined) {
+      throw new NotFoundException(`User with ID ${param.id} doesn't exists`);
+    }
   }
 }
