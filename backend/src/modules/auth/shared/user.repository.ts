@@ -50,6 +50,7 @@ export class UserRepository extends Repository<User> {
     const { username, password } = authDto;
 
     const user = await this.findOne({ username });
+    console.log('User trying to login', user)
     if (user && (await user.validatePassword(password))) {
       return user.username;
     } else {

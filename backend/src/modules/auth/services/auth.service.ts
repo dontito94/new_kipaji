@@ -44,19 +44,4 @@ export class AuthService {
     const usersaved = await this.userRepository.save(user);
     return usersaved;
   }
-  async deleteUser(uid: string): Promise<any> {
-    try {
-      const getuser = await this.userRepository.findOne({ uid });
-      if (getuser) {
-        await this.userRepository.delete({ uid });
-        const message = {
-          message: `User with ID ${uid} deleted successfully`,
-          payloard: getuser,
-        };
-        return message;
-      }
-    } catch (error) {
-      return error;
-    }
-  }
 }
