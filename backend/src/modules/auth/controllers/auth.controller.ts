@@ -52,7 +52,7 @@ export class AuthController {
       return sanitizeResponseObject(deletedUser);
     }
     if (user == undefined) {
-      throw new NotFoundException(`User with ID ${param.id} doesn't exists`);
+      throw new NotFoundException(`User with ID ${param.id} doesn't exist`);
     }
   }
 }
