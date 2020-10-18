@@ -26,13 +26,9 @@ export function getConfiguration() {
   if (!config.port) {
     config.port = parseInt(process.env.PORT) || 4000
   }
-
   if (!files.temp) {
     files.temp = pathFolder + '/' + 'temp';
   }
-//   if (!fs.existsSync(files.temp)) {
-//     fs.mkdirSync(files.temp);
-/*}*/
   return {
     ...config,
     ...files,
