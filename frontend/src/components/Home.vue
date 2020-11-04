@@ -1,18 +1,22 @@
 <template>
-  <div>
-    <main-nav></main-nav>
-  </div>
+    <div>
+<!--        <SideMenu/>-->
+        <main-nav></main-nav>
+    </div>
+
 </template>
 
 
 <script>
     import MainNav from '../components/home/MainNavBar'
+    import SideMenu from "./home/SideMenu";
 
 
     export default {
         name: "Home",
 
         components:{
+            SideMenu,
             MainNav
         }
     }

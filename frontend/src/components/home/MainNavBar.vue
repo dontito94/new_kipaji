@@ -1,25 +1,56 @@
 <template>
-  <div>
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand">KIPAJI</a>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-      <Authentication></Authentication>
-    </nav>
-  </div>
+    <div>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand">KIPAJI</a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+
+
+        <side-menu></side-menu>
+    </div>
+
 </template>
 
 <script>
-    import Authentication from "../user/auth/Authentication";
-
+    import SideMenu from "./SideMenu";
     export default {
         name: "MainNavBar",
-        components: {Authentication}
+        components: {SideMenu}
     }
 </script>
 
 <style scoped>
+    .menu_button{
+        background:#2D83B6 ;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        display: inline-block;
+        margin-right: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        vertical-align: top;
+        color: #fff;
+    }
+    .menu_button .menu_toggle {
+        background: #fff;
+    }
+    .menu_button .menu_toggle{
+        left: 35px;
+    }
+    .menu_toggle{
+        background: #222;
+        height: 2px;
+        width: 20px;
+         /*display: inline-block;*/
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: scale(1) translateY(-50%);
+        transition: transform .2s ease-out;
+    }
 
 </style>
